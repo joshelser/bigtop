@@ -88,7 +88,7 @@
 	$ZOOKEEPER_HOME/zookeeper[^.].*-[0-9].*.jar,
 	$HADOOP_CONF_DIR,
 	$HADOOP_CLIENT_HOME/[^.].*-[0-9].*.jar,
-	$HADOOP_PREFIX/lib/[^.].*.jar,
+	$HADOOP_PREFIX/lib/(?!slf4j)[^.].*.jar,
       </value>
       <description>Classpaths that accumulo checks for updates and class files.
       When using the Security Manager, please remove the ".../target/classes/" values.
