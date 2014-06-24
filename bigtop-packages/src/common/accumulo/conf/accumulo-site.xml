@@ -59,15 +59,6 @@
     </property>
 
     <property>
-      <name>master.port.client</name>
-      <value>10010</value>
-    </property>
-    <property>
-      <name>tserver.port.client</name>
-      <value>10011</value>
-    </property>
-    
-    <property>
       <name>trace.password</name>
       <!-- 
         change this to the root user's password, and/or change the user below 
