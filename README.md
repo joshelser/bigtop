@@ -15,6 +15,15 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Fork of Apache Bigtop
+======
+
+This is a fork of Apache Bigtop with the changes proposed by Sean Mackrory in
+https://issues.apache.org/jira/browse/BIGTOP-1175 plus some recommendations that were made in the accompanying
+reviewboard. This code will be invalidated when the patch is applied upstream and is intended only as a stopgap until
+that time occurs.
+
+
 Apache Bigtop (http://bigtop.apache.org/)
 ======
 
