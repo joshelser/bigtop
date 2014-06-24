@@ -39,7 +39,7 @@ init_function() {
 
   log_success_msg "Initializing Accumulo: "
 
-  su -s /bin/bash -c "cd ~/ && ${EXEC_PATH} init" $SVC_USER
+  sudo -u $SVC_USER ${EXEC_PATH} init
 
   su -s /bin/bash hdfs -c '/usr/bin/hadoop fs -chmod 750 /accumulo/*'
   su -s /bin/bash hdfs -c '/usr/bin/hadoop fs -chmod 755 /accumulo/instance_id'

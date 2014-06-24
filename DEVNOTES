@@ -22,4 +22,5 @@
   on Ubuntu at the moment.
 
 2. RedHat
-  2.0 yum install -y git subversion fuse-devel fuse fuse-libs
+  2.0 yum install -y git subversion fuse-devel fuse fuse-libs dpkg-buildpackage cmake openssl-devel rpm-build lzo-devel ant
+  2.1 Install maven and gradle and add them to your PATH
